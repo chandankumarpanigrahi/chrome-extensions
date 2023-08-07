@@ -1,0 +1,70 @@
+/* Style for the entire container */
+.todo-container {
+	width: 300px;
+	padding: 10px;
+}
+
+h2 {
+	color: #e56428;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+/* Style for the To-Do list */
+ul {
+	list-style: decimal;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 500;
+	color: #0f4d71;
+	margin-bottom: 16px;
+}
+
+li {
+	padding: 3px 5px;
+    margin: 5px 0;
+    margin-left: 12px;
+    background-color: #f3f6ff;
+    border-radius: 12px;
+}
+
+/* Style for the input and button */
+input[type="text"] {
+	width: 232px;
+	padding: 5px;
+	margin-right: 5px;
+	border-radius: 6px;
+	border-color: #e4e4e4;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+
+.delete-button {
+	background-color: #5d74ba;
+    color: white;
+    border: none;
+    padding: 3px 6px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 2px;
+    float: right;
+    font-size: 10px;
+}
+
+.author{
+    text-align: right;
+    color: #a2a2a2;
+}
